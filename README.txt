@@ -1,4 +1,4 @@
-Set-ExecutionPolicy Bypass
+Set-ExecutionPolicy Bypass - Afterwards, you must execute payload by selecting the Run with PowerShell option from the right click menu.
 or
 powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File .\Am.ps1
 or
